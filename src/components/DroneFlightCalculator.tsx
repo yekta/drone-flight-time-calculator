@@ -195,7 +195,7 @@ export function DroneFlightCalculator() {
           <div className="px-4 py-3 bg-muted rounded-lg mt-6">
             <div>
               <h3 className="font-medium">Current Configuration</h3>
-              <p className="text-2xl font-bold">{totalWeight}g Total Weight</p>
+              <p className="text-2xl font-bold">{totalWeight}g</p>
             </div>
             <div className="mt-2 flex flex-wrap">
               <p>
