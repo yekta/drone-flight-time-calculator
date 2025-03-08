@@ -131,6 +131,7 @@ export function DroneFlightCalculator() {
               <div className="w-full flex flex-col space-y-2">
                 <Label htmlFor="drone-weight">Drone Weight (g)</Label>
                 <Input
+                  inputMode="numeric"
                   id="drone-weight"
                   type="text"
                   value={droneWeight}
@@ -141,6 +142,7 @@ export function DroneFlightCalculator() {
               <div className="w-full flex flex-col space-y-2">
                 <Label htmlFor="battery-capacity">Battery Capacity (mAh)</Label>
                 <Input
+                  inputMode="numeric"
                   id="battery-capacity"
                   type="text"
                   value={mainBattery.capacity}
@@ -158,6 +160,7 @@ export function DroneFlightCalculator() {
               <div className="w-full flex flex-col space-y-2">
                 <Label htmlFor="battery-weight">Battery Weight (g)</Label>
                 <Input
+                  inputMode="numeric"
                   id="battery-weight"
                   type="text"
                   value={mainBattery.weight}
@@ -173,6 +176,7 @@ export function DroneFlightCalculator() {
               <div className="w-full flex flex-col space-y-2">
                 <Label htmlFor="known-flight-time">Known Flight Time (m)</Label>
                 <Input
+                  inputMode="numeric"
                   id="known-flight-time"
                   type="text"
                   value={mainBattery.knownFlightTime || ""}
