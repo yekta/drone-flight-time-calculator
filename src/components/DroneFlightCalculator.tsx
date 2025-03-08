@@ -291,10 +291,10 @@ export function DroneFlightCalculator() {
 
                     return (
                       <TableRow key={battery.id}>
-                        <TableCell className="w-1/6 min-w-24 font-medium whitespace-nowrap">
+                        <TableCell className="w-1/6 min-w-20 font-medium whitespace-nowrap">
                           Option {battery.id.replace("comp", "")}
                         </TableCell>
-                        <TableCell className="w-1/6 min-w-24">
+                        <TableCell className="w-1/6 min-w-20">
                           <Input
                             type="text"
                             inputMode="numeric"
@@ -309,7 +309,7 @@ export function DroneFlightCalculator() {
                             className="w-full h-8 text-base"
                           />
                         </TableCell>
-                        <TableCell className="w-1/6 min-w-24">
+                        <TableCell className="w-1/6 min-w-20">
                           <Input
                             type="text"
                             inputMode="numeric"
@@ -331,17 +331,17 @@ export function DroneFlightCalculator() {
                               : flightTime < Number(mainFlightTime)
                               ? "font-bold text-red-600 whitespace-nowrap"
                               : "font-bold whitespace-nowrap"
-                          } w-1/6 min-w-24`}
+                          } w-1/6 min-w-20`}
                         >
                           {flightTime} min
                         </TableCell>
-                        <TableCell className="w-1/6 min-w-24">
+                        <TableCell className="w-1/6 min-w-20">
                           {batteryTotalWeight}g
                         </TableCell>
-                        <TableCell className="w-1/6 min-w-24">
+                        <TableCell className="w-1/6 min-w-20">
                           {capacityToWeight}
                         </TableCell>
-                        <TableCell className="w-1/6 min-w-24">
+                        <TableCell className="w-1/6 min-w-20">
                           <Button
                             variant="ghost"
                             size="icon"
