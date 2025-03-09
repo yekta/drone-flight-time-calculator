@@ -126,7 +126,7 @@ export function DroneFlightCalculator() {
           </CardDescription>
         </CardHeader>
         <CardContent className="px-4 py-3.5 md:px-5 md:py-4 pt-2">
-          <div className="grid gap-2 md:grid-cols-2 text-left">
+          <div className="grid gap-2 sm:grid-cols-2 text-left">
             <div className="w-full flex flex-col space-y-4">
               <div className="w-full flex flex-col space-y-2">
                 <Label htmlFor="drone-weight">Drone Weight (g)</Label>
@@ -362,7 +362,7 @@ export function DroneFlightCalculator() {
             </div>
           </div>
 
-          <div className="w-full px-4 py-3 pb-5 text-left flex flex-col mt-3">
+          <div className="w-full px-4 py-3 pb-5 sm:p-0 text-left flex flex-col mt-3">
             <h3 className="w-full font-medium mb-2">
               How the Comparison Works
             </h3>
